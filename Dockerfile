@@ -17,3 +17,6 @@ RUN cd "/" && \
 	pip install . && \
 	cd "/" && \
 	rm -rf darkflow
+
+RUN cd "/" && \
+	wget "https://pjreddie.com/media/files/yolo.weights"

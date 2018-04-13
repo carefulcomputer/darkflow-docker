@@ -17,6 +17,4 @@ RUN pip install opencv-python
 RUN cd "/" && \
     git clone https://github.com/thtrieu/darkflow.git &&\
     cd darkflow && \
-    pip install . && \
-    cd "/" && \
-    rm -rf darkflow
+    pip install . 

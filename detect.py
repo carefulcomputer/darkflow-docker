@@ -43,7 +43,7 @@ def processStream(streamId):
         print("time is %d" % (endtime - starttime).microseconds)
         print("-------------------------")
 
-cv2.destroyAllWindows()
+    cv2.destroyAllWindows()
 #------------------------------------------------
 # draw each person on image and save it along with original
 def processDetectionResults(persons, img):

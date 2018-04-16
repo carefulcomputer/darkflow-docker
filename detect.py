@@ -15,7 +15,6 @@ minWidth = 50
 
 count = 0
 
-# garage streamid = 3, inside = 2
 def processStream(streamId):
     while True:
         starttime = datetime.datetime.now()
